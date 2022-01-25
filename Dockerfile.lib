@@ -1,5 +1,4 @@
 FROM centos:7 as builder
-WORKDIR /app
 
 RUN yum install -y wget
 
